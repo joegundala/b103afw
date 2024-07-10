@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\workspace3\b103afw\testng.xml</span>
+                    <span>C:\Users\joegu\git\b103afw\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="scripts.TC2" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="scripts.TC3" class="method navigator-link" hash-for-method="testlogout2">testlogout2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,12 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="scripts.TC1" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="scripts.TC3" class="method navigator-link" hash-for-method="testLogin1">testLogin1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="scripts.ValidLogin" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -142,72 +118,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">scripts.TC2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test2">
-                  </a> <!-- test2 -->
-                  <span class="method-name">test2</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at scripts.TC2.test2(TC2.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">scripts.TC3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testlogout2">
-                  </a> <!-- testlogout2 -->
-                  <span class="method-name">testlogout2</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at scripts.TC3.testlogout2(TC3.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scripts.TC3</span>
+              <span class="class-name">scripts.ValidLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin1">
-                  </a> <!-- testLogin1 -->
-                  <span class="method-name">testLogin1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">scripts.TC1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,7 +136,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\workspace3\b103afw\testng.xml</span>
+            <span class="header-content">C:\Users\joegu\git\b103afw\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -227,10 +148,7 @@
       &lt;package name=&quot;scripts&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;scripts.Demo1&quot;/&gt;
-      &lt;class name=&quot;scripts.TC1&quot;/&gt;
-      &lt;class name=&quot;scripts.TC2&quot;/&gt;
-      &lt;class name=&quot;scripts.TC3&quot;/&gt;
+      &lt;class name=&quot;scripts.ValidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -244,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -270,28 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test2')
-data.setCell(0, 2, 'scripts.TC2')
-data.setCell(0, 3, 20);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
-data.setCell(1, 2, 'scripts.TC1')
-data.setCell(1, 3, 14);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogin1')
-data.setCell(2, 2, 'scripts.TC3')
-data.setCell(2, 3, 1);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testlogout2')
-data.setCell(3, 2, 'scripts.TC3')
-data.setCell(3, 3, 1);
+data.setCell(0, 1, 'testValidLogin')
+data.setCell(0, 2, 'scripts.ValidLogin')
+data.setCell(0, 3, 1514);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -302,22 +208,19 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testValidLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Homepage is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">scripts.TC2</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">createReport</span>
-                <br/>
-                <span class="ignored-method-name">publishReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -326,75 +229,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.TC1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.ValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(public void scripts.TC1.test1())</span>
-                <span class="method-start">263 ms</span>
+                <span class="method-name">preCondition(public void scripts.ValidLogin.testValidLogin())</span>
+                <span class="method-start">219 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">5376 ms</span>
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">3338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=test1 status=SUCCESS method=TC1.test1()[pri:0, instance:scripts.TC1@42a48628] outpu...)</span>
-                <span class="method-start">5392 ms</span>
+                <span class="method-name">postCondition([TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:sc...)</span>
+                <span class="method-start">4856 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">scripts.TC2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(public void scripts.TC2.test2())</span>
-                <span class="method-start">5592 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test2</span>
-                <span class="method-start">8908 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition([TestResult name=test2 status=FAILURE method=TC2.test2()[pri:0, instance:scripts.TC2@3c19aaa5] outpu...)</span>
-                <span class="method-start">8934 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">scripts.TC3</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">m1(public void scripts.TC3.testLogin1())</span>
-                <span class="method-start">9299 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testLogin1</span>
-                <span class="method-start">9300 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">m2([TestResult name=testLogin1 status=SUCCESS method=TC3.testLogin1()[pri:0, instance:scripts.TC3@3349e...)</span>
-                <span class="method-start">9301 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">m1(public void scripts.TC3.testlogout2())</span>
-                <span class="method-start">9303 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testlogout2</span>
-                <span class="method-start">9305 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">m2([TestResult name=testlogout2 status=FAILURE method=TC3.testlogout2()[pri:0, instance:scripts.TC3@334...)</span>
-                <span class="method-start">9308 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">scripts.TC1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">publishReport</span>
-                <span class="method-start">9350 ms</span>
+                <span class="method-start">5086 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
